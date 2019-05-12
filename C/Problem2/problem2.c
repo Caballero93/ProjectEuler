@@ -26,7 +26,7 @@ fibonacci create_fibonacci(int num)
    sequence[1]=2;
    int curr_len = 2; // current length of fibonacci sequence
 
-   while ((sequence[curr_len-1] + sequence[curr_len-2]<num))
+   while ((sequence[curr_len-1] + sequence[curr_len-2]<=num))
    {
        // add new element of fibonacci sequence if it is smaller then num
        curr_len += 1;
