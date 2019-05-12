@@ -11,7 +11,7 @@ def create_fibonacci(n):
     Creates list of fibonacci numbers up to number n.
     """
     fib = [1, 2]
-    while (fib[-1] + fib[-2]) < n:
+    while (fib[-1] + fib[-2]) <= n:
         fib.append(fib[-1] + fib[-2])
 
     return fib
