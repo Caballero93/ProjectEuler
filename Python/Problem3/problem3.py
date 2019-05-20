@@ -5,7 +5,7 @@ What is the largest prime factor of the number 600851475143?
 """
 ###
 # Every whole number can be written as the product of its prime factors. Problem can be solved recursively,
-# by finding smallest prime factor of the number and dividing the starting number with the returned prime factor. Problem is solved when the smallest prime factor of the number is itself.
+# by finding smallest prime factor of the number and dividing the starting number with the returned prime factor. Problem is solved when the smallest prime factor of the number is the number itself.
 
 def is_prime(num):
     """
